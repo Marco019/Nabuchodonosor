@@ -1,3 +1,27 @@
+/*style pour la barre de navigation, pour toutes les pages*/
+#barreNavigation {
+	text-align: center;
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	border: 3px;
+	border-color: black;
+	border-style: solid;
+}
+.boutonsNavigation {
+	display: inline-block;
+	text-align: center;
+	background-color: yellow;
+	line-height: 50px;
+	vertical-align: middle;/*ne fait pas effet*/
+	text-decoration: none;
+	padding: 3px;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+}
+/*style de la page index.html*/
 h1 {
   text-align: center;
   color: red;
